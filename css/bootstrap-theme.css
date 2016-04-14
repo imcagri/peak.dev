@@ -1,0 +1,100 @@
+body{
+	/*font-family: Tahoma;*/
+}
+.user{
+	padding:6px;
+}
+.user-index{
+	padding:10px;
+	font-size:15px;
+	color: #FFF;
+	float:left;
+}
+.user-index-active{
+	background-color: #529F03;
+}
+.user-index-passive{
+	background-color: #A5AB9F;
+}
+.user-image{
+	float:left;
+	margin-left:5px;
+}
+.img{
+	width:40px;
+	height:40px;
+}
+.user-name-price{
+	float:left;
+}
+.user-price{
+	color: #415607;
+	font-weight: bold;
+}
+.user-gift{
+	float:right;
+	/*border:1px solid gray;*/
+	box-shadow: 1px 2px 4px #ddd;
+	font-size:13px;
+	padding:3px 6px;
+	text-align:center;
+	cursor:pointer;
+	color: #FFF;
+}
+
+#gift-window{
+	display: none;
+	position: absolute;
+	top:50px;
+	left:60px;
+	background-color: #ddd;
+	padding:20px;
+}
+#gift-window > .gift{
+	padding:10px 30px;
+}
+.gift-title,.gift-price,.gift-image{
+	float:left;
+}
+.gift-price{
+	color: #415607;
+	font-weight: bold;
+	margin-top:8px;
+	margin-left:5px;
+}
+.gift-send-button{
+	float:right;
+	cursor:pointer;
+	margin-left:40px;
+	margin-top:8px;
+}
+.pending-gift{
+	padding:10px;
+}
+.pending-gift-img, .pending-gift-sender{
+	float:left;
+	padding-left:10px;
+}
+
+.pending-gift-accept, .pending-gift-dismiss{
+	float:right;
+	box-shadow: 1px 2px 4px #ddd;
+	font-size:13px;
+	padding:3px 6px;
+	text-align:center;
+	cursor:pointer;
+	background-color: #529F03;
+	color: #FFF;
+}
+.pending-gift-dismiss{
+	background-color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
